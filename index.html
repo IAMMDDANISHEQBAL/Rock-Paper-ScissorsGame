@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper Scissor</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/css-doodle@0.15.3/css-doodle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/css-doodle/0.30.0/css-doodle.js" integrity="sha512-fAA616bYGXpn6N+kU+XbRHzH4JeCVKDal+oY5l8Iu6O0xGXg4rsKEfebpzJoURhRQvIZubmoWRxvBldfnNqouw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script></head>
+<body>
+ 
+<video autoplay muted loop>
+  <source src="wallpaper.mp4" type="video/mp4">
+</video>
+    <div class="title">
+     <p>Rock -Paper -Scissor </p>
+  </div>
+    <div class="container">
+        <div class="buttons">
+   
+        <button class="rock" onclick="playGame('rock')"></button>
+        <button class="scissor" onclick="playGame('scissors')"></button>
+        <button class="paper" onclick="playGame('paper')"></button>
+        </div>
+    <div class="consoles"></div>
+     
+    </div>
+ <div class="result">
+
+    <div class="info">
+        <div class="user">
+        <p class="i">0</p>
+         <p class="m">USER</p>
+        </div>
+        <div class="pc">
+         <p class="f">0</p>
+         <p class="l">PC</pclass>
+         </div>
+    </div>
+
+    <div class="move"></div>
+    <div class="reset">
+        <button class="reset" onclick="reset()">Reset</button>
+    </div>
+        
+</div>
+
+
+
+
+
+ </div>
+   
+    <script src="script.js" defer></script>
+</body>
+
+</html>
